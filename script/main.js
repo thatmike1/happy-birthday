@@ -223,7 +223,7 @@ const animationTimeline = () => {
     )
     .from(".hat", 0.5, {
       x: -30,
-      y: 30,
+      y: -30,
       rotation: -180,
       opacity: 0,
     })
@@ -294,8 +294,8 @@ const animationTimeline = () => {
     );
 
   // tl.seek("currentStep");
-  // tl.progress(0.4);
-  // tl.timeScale(1);
+  tl.progress(0.45);
+  tl.timeScale(1);
 
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");

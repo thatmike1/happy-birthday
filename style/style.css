@@ -109,7 +109,7 @@ body {
 }
 
 .idea-6 span {
-  font-size: 15rem;
+  font-size: 6rem !important;
 }
 
 .six {
@@ -126,8 +126,8 @@ body {
 .six .hat {
   position: absolute;
   width: 80px;
-  top: 55px;
-  left: -100px;
+  top: 25px !important;
+  left: 95px !important;
   transform: scale(1.1);
 }
 
@@ -277,7 +277,7 @@ body {
   }
 
   .idea-6 span {
-    font-size: 10rem;
+    font-size: 6rem !important;
   }
 
   .six .hat {
